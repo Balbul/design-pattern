@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Répository permettant de me servir de mémo pour les design-pattern",
   "scripts": {
-    "singleton": "tsc && node ./dist/singleton/index.js",
+    "singleton": "tsc && node ./dist/singleton/singleton.js",
+    "factory:v1": "tsc && node ./dist/factory/factory.v1.js",
+    "factory:v2": "tsc && node ./dist/factory/factory.v2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

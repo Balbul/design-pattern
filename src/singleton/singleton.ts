@@ -32,7 +32,7 @@ class DataBaseAccess {
 /**
  * Le code de démonstration.
  */
-function demo() {
+function demoCode() {
   const s1 = DataBaseAccess.getInstance();
   const s2 = DataBaseAccess.getInstance();
 
@@ -45,4 +45,4 @@ function demo() {
   }
 }
 
-demo();
+demoCode();
